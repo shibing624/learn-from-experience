@@ -3,7 +3,7 @@ name: learn-from-experience
 slug: learn-from-experience
 version: 1.3.0
 description: "Learn from experience: self-reflection + self-criticism + self-learning + self-organizing memory + cross-session sync. Agent evaluates its own work, catches mistakes, and improves permanently. Compiles confirmed learnings to global config for automatic cross-session persistence. Use when (1) a command, tool, API, or operation fails; (2) the user corrects you or rejects your work; (3) you realize your knowledge is outdated or incorrect; (4) you discover a better approach; (5) the user explicitly installs or references the skill for the current task."
-changelog: "v1.3.0: Rebrand to learn-from-experience. Add cross-session memory sync protocol — compile confirmed preferences to agent global config for automatic loading in new sessions. Multi-agent compatibility: Claude Code, OpenClaw, Codex CLI, OpenCode, Gemini CLI, CodeBuddy, Cursor, Windsurf."
+changelog: "v1.3.0: Rebrand to learn-from-experience. Add cross-session memory sync protocol — compile confirmed preferences to agent global config for automatic loading in new sessions. Multi-agent compatibility: Claude Code, OpenClaw, Codex CLI, OpenCode, Gemini CLI, Agentica, CodeBuddy, Cursor, Windsurf."
 metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/learn-from-experience/"],"configPaths.optional":["./AGENTS.md","./SOUL.md","./HEARTBEAT.md"]}}
 ---
 
@@ -22,6 +22,7 @@ This skill is agent-agnostic. It works with any product that loads a global conf
 | Codex CLI | symlink to `~/.codex/skills/learn-from-experience/` | `AGENTS.md` | `~/.codex/AGENTS.md` |
 | OpenCode | symlink to `~/.opencode/skills/learn-from-experience/` | `AGENTS.md` | `~/.opencode/AGENTS.md` |
 | Gemini CLI | symlink to `~/.gemini/skills/learn-from-experience/` | `AGENTS.md` | `~/.gemini/AGENTS.md` |
+| Agentica | `~/.agentica/skills/learn-from-experience/` | `AGENTS.md` | `~/.agentica/AGENTS.md` |
 | CodeBuddy | `~/.codebuddy/skills/learn-from-experience/` | `CODEBUDDY.md` | `~/.codebuddy/CODEBUDDY.md` |
 | Cursor | symlink to `.cursor/skills/learn-from-experience/` (in repo) | `AGENTS.md` | `.cursor/AGENTS.md` |
 | Windsurf | symlink to `.windsurf/skills/learn-from-experience/` (in repo) | `AGENTS.md` | `.windsurf/AGENTS.md` |
@@ -289,9 +290,10 @@ Check in order (first existing path wins):
 3. ~/.codex/AGENTS.md               (Codex CLI)
 4. ~/.opencode/AGENTS.md            (OpenCode)
 5. ~/.gemini/AGENTS.md              (Gemini CLI)
-6. ~/.codebuddy/CODEBUDDY.md        (CodeBuddy)
-7. .cursor/AGENTS.md                (Cursor)
-8. .windsurf/AGENTS.md              (Windsurf)
+6. ~/.agentica/AGENTS.md            (Agentica)
+7. ~/.codebuddy/CODEBUDDY.md        (CodeBuddy)
+8. .cursor/AGENTS.md                (Cursor)
+9. .windsurf/AGENTS.md              (Windsurf)
 ```
 If multiple exist, sync to all of them (user may use multiple products).
 

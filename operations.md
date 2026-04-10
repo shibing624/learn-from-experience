@@ -75,9 +75,10 @@ Check in order (first existing path wins):
 3. ~/.codex/AGENTS.md               (Codex CLI)
 4. ~/.opencode/AGENTS.md            (OpenCode)
 5. ~/.gemini/AGENTS.md              (Gemini CLI)
-6. ~/.codebuddy/CODEBUDDY.md        (CodeBuddy)
-7. .cursor/AGENTS.md                (Cursor)
-8. .windsurf/AGENTS.md              (Windsurf)
+6. ~/.agentica/AGENTS.md            (Agentica)
+7. ~/.codebuddy/CODEBUDDY.md        (CodeBuddy)
+8. .cursor/AGENTS.md                (Cursor)
+9. .windsurf/AGENTS.md              (Windsurf)
 If multiple exist, sync to all of them.
 ```
 

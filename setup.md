@@ -9,6 +9,7 @@
 | Codex CLI | `AGENTS.md` | `~/.codex/AGENTS.md` |
 | OpenCode | `AGENTS.md` | `~/.opencode/AGENTS.md` |
 | Gemini CLI | `AGENTS.md` | `~/.gemini/AGENTS.md` |
+| Agentica | `AGENTS.md` | `~/.agentica/AGENTS.md` |
 | CodeBuddy | `CODEBUDDY.md` | `~/.codebuddy/CODEBUDDY.md` |
 | Cursor | `AGENTS.md` | `.cursor/AGENTS.md` |
 | Windsurf | `AGENTS.md` | `.windsurf/AGENTS.md` |

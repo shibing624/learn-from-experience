@@ -4,7 +4,7 @@
 
 > 让 AI Agent 从经验中学习 -- 纠正过的错误不再重犯，好的方法自动沉淀，越用越懂你的一个skill。
 
-`learn-from-experience` 会把纠正、偏好和复盘沉淀成可复用的执行经验。你不需要在每个新会话里反复重申同一套规范，Agent 会保留已确认规则、整理待确认经验，并把长期有效的规则同步到长期记忆（如 Claude Code 的 `CLAUDE.md`）中，适用于Claude Code、OpenClaw、Codex CLI、OpenCode、Gemini CLI、CodeBuddy、Cursor、Windsurf等Agent产品。
+`learn-from-experience` 会把纠正、偏好和复盘沉淀成可复用的执行经验。你不需要在每个新会话里反复重申同一套规范，Agent 会保留已确认规则、整理待确认经验，并把长期有效的规则同步到长期记忆（如 Claude Code 的 `CLAUDE.md`）中，适用于 Claude Code、OpenClaw、Codex CLI、OpenCode、Gemini CLI、Agentica、CodeBuddy、Cursor、Windsurf 等 Agent 产品。
 
 ## 为什么需要这个Skill
 
@@ -73,6 +73,9 @@ ln -sf "$(pwd)" ~/.opencode/skills/learn-from-experience
 
 # Gemini CLI
 ln -sf "$(pwd)" ~/.gemini/skills/learn-from-experience
+
+# Agentica
+cp -r "$(pwd)" ~/.agentica/skills/learn-from-experience
 ```
 
 然后对 Agent 说：
@@ -98,6 +101,7 @@ ln -sf "$(pwd)" ~/.gemini/skills/learn-from-experience
 | Codex CLI | `~/.codex/AGENTS.md` | 软链接到 `~/.codex/skills/learn-from-experience/` |
 | OpenCode | `~/.opencode/AGENTS.md` | 软链接到 `~/.opencode/skills/learn-from-experience/` |
 | Gemini CLI | `~/.gemini/AGENTS.md` | 软链接到 `~/.gemini/skills/learn-from-experience/` |
+| Agentica | `~/.agentica/AGENTS.md` | `~/.agentica/skills/learn-from-experience/` |
 | CodeBuddy | `~/.codebuddy/CODEBUDDY.md` | `~/.codebuddy/skills/learn-from-experience/` |
 | Cursor | `.cursor/AGENTS.md` | 软链接到 `.cursor/skills/learn-from-experience/` |
 | Windsurf | `.windsurf/AGENTS.md` | 软链接到 `.windsurf/skills/learn-from-experience/` |

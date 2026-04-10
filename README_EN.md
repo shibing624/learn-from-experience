@@ -4,7 +4,7 @@
 
 > Let AI Agent learn from experience -- correct mistakes once, forget them never. Good methods auto-accumulate, and the more you use it, the more it understands you.
 
-`learn-from-experience` turns corrections, preferences, and self-reflection into reusable operational memory. Instead of re-teaching your agent the same lessons every session, you let it retain what was confirmed, organize what is still tentative, and sync durable rules into the agent's global config (like `CLAUDE.md` for Claude Code).
+`learn-from-experience` turns corrections, preferences, and self-reflection into reusable operational memory. Instead of re-teaching your agent the same lessons every session, you let it retain what was confirmed, organize what is still tentative, and sync durable rules into the agent's global config (like `CLAUDE.md` for Claude Code). It works across Claude Code, OpenClaw, Codex CLI, OpenCode, Gemini CLI, Agentica, CodeBuddy, Cursor, and Windsurf.
 
 ## Why This Skill Exists
 
@@ -73,6 +73,9 @@ ln -sf "$(pwd)" ~/.opencode/skills/learn-from-experience
 
 # Gemini CLI
 ln -sf "$(pwd)" ~/.gemini/skills/learn-from-experience
+
+# Agentica
+cp -r "$(pwd)" ~/.agentica/skills/learn-from-experience
 ```
 
 Then tell your agent:
@@ -98,6 +101,7 @@ Expected first-run behavior:
 | Codex CLI | `~/.codex/AGENTS.md` | symlink to `~/.codex/skills/learn-from-experience/` |
 | OpenCode | `~/.opencode/AGENTS.md` | symlink to `~/.opencode/skills/learn-from-experience/` |
 | Gemini CLI | `~/.gemini/AGENTS.md` | symlink to `~/.gemini/skills/learn-from-experience/` |
+| Agentica | `~/.agentica/AGENTS.md` | `~/.agentica/skills/learn-from-experience/` |
 | CodeBuddy | `~/.codebuddy/CODEBUDDY.md` | `~/.codebuddy/skills/learn-from-experience/` |
 | Cursor | `.cursor/AGENTS.md` | symlink to `.cursor/skills/learn-from-experience/` |
 | Windsurf | `.windsurf/AGENTS.md` | symlink to `.windsurf/skills/learn-from-experience/` |

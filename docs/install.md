@@ -18,6 +18,7 @@ This repository is designed so that the repository itself can be used as the ins
 | Codex CLI | `~/.codex/AGENTS.md` | symlink to `~/.codex/skills/learn-from-experience/` |
 | OpenCode | `~/.opencode/AGENTS.md` | symlink to `~/.opencode/skills/learn-from-experience/` |
 | Gemini CLI | `~/.gemini/AGENTS.md` | symlink to `~/.gemini/skills/learn-from-experience/` |
+| Agentica | `~/.agentica/AGENTS.md` | `~/.agentica/skills/learn-from-experience/` |
 | CodeBuddy | `~/.codebuddy/CODEBUDDY.md` | `~/.codebuddy/skills/learn-from-experience/` |
 | Cursor | `.cursor/AGENTS.md` | symlink to `.cursor/skills/learn-from-experience/` |
 | Windsurf | `.windsurf/AGENTS.md` | symlink to `.windsurf/skills/learn-from-experience/` |
@@ -54,6 +55,12 @@ ln -sf "$(pwd)" ~/.opencode/skills/learn-from-experience
 
 ```bash
 ln -sf "$(pwd)" ~/.gemini/skills/learn-from-experience
+```
+
+### Agentica
+
+```bash
+cp -r "$(pwd)" ~/.agentica/skills/learn-from-experience
 ```
 
 ### CodeBuddy
