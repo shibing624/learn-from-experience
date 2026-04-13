@@ -77,4 +77,4 @@ Each skill uses `SKILL.md` as its entry point -- the agent reads it first when l
 
 ## License
 
-MIT. See [`LICENSE`](LICENSE).
+Apache-2.0

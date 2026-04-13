@@ -149,4 +149,4 @@ learn-from-experience/
 
 ## 许可证
 
-MIT，详见 [`LICENSE`](LICENSE)。
+Apache-2.0 License
