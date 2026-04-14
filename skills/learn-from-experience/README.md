@@ -1,5 +1,3 @@
-[**🌐English**](README_EN.md) | [**🇨🇳中文**](README.md)
-
 # Learn from Experience Skill
 
 > 让 AI Agent 从经验中学习 -- 纠正过的错误不再重犯，好的方法自动沉淀，越用越懂你的一个skill。
@@ -119,14 +117,7 @@ learn-from-experience/
 ├── scaling.md
 ├── boundaries.md
 ├── heartbeat-rules.md
-├── docs/
 ```
-
-## 文档导航
-
-- [`docs/install.md`](docs/install.md)：完整安装矩阵与初始化说明
-- [`docs/architecture.md`](docs/architecture.md)：记忆分层、同步模型与运行时数据流
-- [`docs/faq.md`](docs/faq.md)：常见问题、边界情况与卸载说明
 
 ## 安全模型
 
